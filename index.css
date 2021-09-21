@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  justify-content: center;
+}
+
+body > * {
+  margin-bottom: 16px;
+}
+
+body canvas {
+  background-color: gray;
+}
+
+body section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
